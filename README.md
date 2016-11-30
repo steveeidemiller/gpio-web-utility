@@ -16,11 +16,9 @@ This is quite useful for prototyping, testing, and quickly controlling the Pi fr
 computer on the network.
 
 ## Changes from the original
-The original version no longer worked for me on Pi 3 with the new gpio builds. So, I modified the
-code to handle the new double-column layout of `gpio readall`. In addition, I removed the dependency
-on [WiringPi-PHP](https://github.com/WiringPi/WiringPi-PHP), mostly because that wasn't
-working for me either. My version simply uses PHP's `exec()` function to call `gpio` directly,
-so WiringPi-PHP is no longer required or used.
+This version handles the new double column layout of `gpio readall`. In addition, it no longer uses
+[WiringPi-PHP](https://github.com/WiringPi/WiringPi-PHP). My version simply uses PHP's `exec()`
+function to call `gpio` directly.
 
 ## Requirements
 This is a completely self-contained single page solution, but does require PHP running from a web server,
