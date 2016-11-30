@@ -4,6 +4,9 @@ PHP-based web front-end for WiringPi's `gpio` utility at drogon.net
 Based on the original work and concept by
 [Travis Brown](https://github.com/WarriorRocker/wiringpi-web-utility).
 
+## Screenshot
+![Screenshot](/screenshots/1.png?raw=true)
+
 ## Description
 This is a single-page interface to the `gpio` command line utility used on Raspberry Pi.
 It displays the pin names, modes, values, and physical locations as shown with `gpio readall`.
